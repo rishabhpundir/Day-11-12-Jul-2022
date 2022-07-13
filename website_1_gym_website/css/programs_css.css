@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,800;1,100&family=Monoton&family=Open+Sans:wght@500&display=swap');
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+    background: url('/website_1_gym_website/img/bg.jpg');
+    /* background-color: black; */
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 18px;
+    color: rgba(217,0,34,255);
+}
+
+.mid{
+    display: block;
+    width: 36%;
+    margin: 20px auto;
+    /* border: 2px solid blue; */
+}
+
+.right{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 24px;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 28px 14px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgba(217,0,34,255);
+}
+
+.left img{
+    width: 58px;
+}
+
+.right img{
+    width: 48px;
+}
+
+.right img:hover{
+    transform: scale(1.3);
+}
+
+#followtag{
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#priceheading{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    /* border: 2px solid gold; */
+    background-color: black;
+    border-radius: 15px;
+    color: rgb(2, 220, 206);
+}
+
+.price{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    display: block;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    height: 520px;
+}
+
+.container2{
+    background-color: rgb(208, 208, 7);
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 32%;
+    border-radius: 20px;
+}
+
+.container3{
+    background-color: rgb(197, 137, 25);
+    /* border: 2px solid blue; */
+    display: inline-block;
+    width: 32%;
+    border-radius: 20px;
+}
+
+.container4{
+    background-color: rgb(255, 149, 0);
+    /* border: 2px solid green; */
+    display: inline-block;
+    width: 32%;
+    border-radius: 20px;
+}
+
+.price h2{
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: rgba(217,0,34,255);
+    background: black;
+}
+
+#mprice{
+    color: rgb(16, 135, 2);
+}
+
+#qprice{
+    color: rgb(22, 195, 3);
+}
+
+#yprice{
+    color: rgb(30, 255, 0);
+}
+
+.price button{
+    display: block;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+    margin: 14px auto;
+    width: 50%;
+    background-color: rgb(23, 135, 200);
+    color: white;
+    padding: 7px 14px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.price button:hover{
+    background-color: rgb(1, 106, 167);
+}

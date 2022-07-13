@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,800;1,100&family=Monoton&family=Open+Sans:wght@500&display=swap');
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+    background: url('/website_1_gym_website/img/bg4.jpg');
+    /* background-color: black; */
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 18px;
+    color: rgba(217,0,34,255);
+}
+
+.mid{
+    display: block;
+    width: 36%;
+    margin: 20px auto;
+    /* border: 2px solid blue; */
+}
+
+.container{
+    display: block;
+    /* border: 4px solid purple; */
+    color: rgb(27, 220, 2);
+    margin: 0px auto;
+    padding: 0px 30px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#mainlogo{
+    display: block;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    width: 100px;
+}
+
+.contact li{
+    text-align: center;
+    background-color: black;
+    /* margin-block-end: 10px; */
+    font-size: 16px;
+    font-family: 'Monoton', cursive;
+    color: aqua;
+    border-radius: 7px;
+    list-style-type: none;
+} 
+
+#featurestag{
+    /* border: 2px solid green; */
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    color: rgba(217,0,34,255);
+}
+
+#tm{
+    font-size: 32px;
+    color: rgba(217,0,34,255);
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 24px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 28px 14px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgba(217,0,34,255);
+}
+
+.left img{
+    width: 58px;
+}
+
+.contact img{
+    width: 50px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.contact img:hover{
+    transform: scale(1.3);
+}
+
+
+
+
